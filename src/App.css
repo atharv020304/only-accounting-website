@@ -1,0 +1,231 @@
+/* ----------------------------
+   HERO SECTION
+-----------------------------*/
+.hero {
+  min-height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1400px;
+  margin: 0 auto;
+  gap: 30px;
+  padding: 0 20px;
+  background: #FAF6F0; /* soft off-white */
+  width: 100%;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #000000; /* black */
+}
+
+.hero h4 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #000000; 
+  text-align: center;
+  opacity: 0.7;
+}
+
+.hero .box {
+  max-width: 800px;
+  text-align: center;
+  background: #F4DFC8; /* beige */
+  color: #000000;
+  padding: 40px 60px;
+  border-radius: 25px;
+  letter-spacing: 1px;
+  font-weight: 400;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.hero .box:hover {
+  background: #000000;
+  color: #FAF6F0;
+}
+
+@media (max-width: 1720px) {
+  .hero {
+    padding: 20px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 810px) {
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero .box {
+    padding: 30px 20px;
+  }
+}
+
+/* ----------------------------
+   SERVICES SECTION
+-----------------------------*/
+.services {
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 40px;
+}
+
+.services h3 {
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.services .grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  width: 100%;
+}
+
+.services .grid .card {
+  background: #F4DFC8; /* beige */
+  color: #000000;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.services .grid .card:hover {
+  background: #000000;
+  color: #FAF6F0;
+  transform: translateY(-5px);
+}
+
+.services .grid .card h4 {
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+@media (max-width: 1100px) {
+  .services .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .services .grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ----------------------------
+   HOW IT WORKS SECTION
+-----------------------------*/
+.howItWorks {
+  padding: 50px 110px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  gap: 50px;
+  background: #F4EAE0; /* cream */
+}
+
+.howItWorks h3 {
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.howItWorks .container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  width: 100%;
+  max-width: 1700px;
+}
+
+.howItWorks .container .card {
+  background: #FAF6F0; /* soft white */
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  border-radius: 8px;
+  transition: 0.3s;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.howItWorks .container .card:hover {
+  background: #000000;
+  color: #FAF6F0;
+  transform: translateY(-10px);
+}
+
+.howItWorks .container .card .icon {
+  width: fit-content;
+  display: flex;
+  background: #000000; /* black */
+  padding: 15px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+}
+
+.howItWorks .container .card .icon svg {
+  font-size: 36px;
+  color: #FAF6F0;
+}
+
+.howItWorks .container .card:hover .icon {
+  background: #FAF6F0;
+}
+
+.howItWorks .container .card:hover .icon svg {
+  color: #000000;
+}
+
+.howItWorks .container .card h4 {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #000000;
+}
+
+.howItWorks .container .card:hover h4 {
+  color: #FAF6F0;
+}
+
+.howItWorks .container .card p {
+  color: #000000;
+  opacity: 0.7;
+}
+
+@media (max-width: 1720px) {
+  .howItWorks {
+    padding: 50px 20px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .howItWorks .container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 800px) {
+  .howItWorks .container {
+    grid-template-columns: 1fr;
+  }
+}
