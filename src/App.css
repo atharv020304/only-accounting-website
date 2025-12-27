@@ -11,7 +11,7 @@
   margin: 0 auto;
   gap: 30px;
   padding: 0 20px;
-  background: #FAF6F0; /* soft off-white */
+  background: #F8FAFF; /* off white */
   width: 100%;
 }
 
@@ -19,22 +19,22 @@
   font-size: 2.5rem;
   text-transform: uppercase;
   font-weight: 600;
-  color: #000000; /* black */
+  color: #0F172A;
 }
 
 .hero h4 {
   font-size: 1.2rem;
   font-weight: 500;
-  color: #000000; 
+  color: #1E3A8A;
   text-align: center;
-  opacity: 0.7;
+  opacity: 0.8;
 }
 
 .hero .box {
   max-width: 800px;
   text-align: center;
-  background: #F4DFC8; /* beige */
-  color: #000000;
+  background: #DBEAFE; /* light blue */
+  color: #0F172A;
   padding: 40px 60px;
   border-radius: 25px;
   letter-spacing: 1px;
@@ -43,8 +43,8 @@
 }
 
 .hero .box:hover {
-  background: #000000;
-  color: #FAF6F0;
+  background: #1E3A8A;
+  color: #F8FAFF;
 }
 
 @media (max-width: 1720px) {
@@ -81,7 +81,7 @@
 .services h3 {
   font-size: 1.75rem;
   font-weight: 600;
-  color: #000000;
+  color: #1E3A8A;
   text-transform: uppercase;
 }
 
@@ -93,21 +93,21 @@
 }
 
 .services .grid .card {
-  background: #F4DFC8; /* beige */
-  color: #000000;
+  background: #DBEAFE;
+  color: #0F172A;
   display: flex;
   flex-direction: column;
   gap: 14px;
   padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(30, 58, 138, 0.15);
   transition: background 0.3s ease, transform 0.3s ease;
 }
 
 .services .grid .card:hover {
-  background: #000000;
-  color: #FAF6F0;
-  transform: translateY(-5px);
+  background: #1E3A8A;
+  color: #F8FAFF;
+  transform: translateY(-6px);
 }
 
 .services .grid .card h4 {
@@ -138,13 +138,13 @@
   align-items: center;
   margin: 0 auto;
   gap: 50px;
-  background: #F4EAE0; /* cream */
+  background: #EFF6FF; /* soft blue background */
 }
 
 .howItWorks h3 {
   font-size: 1.75rem;
   font-weight: 600;
-  color: #000000;
+  color: #1E3A8A;
   text-transform: uppercase;
 }
 
@@ -157,26 +157,26 @@
 }
 
 .howItWorks .container .card {
-  background: #FAF6F0; /* soft white */
+  background: #F8FAFF;
   padding: 30px 20px;
   display: flex;
   flex-direction: column;
   gap: 15px;
-  border-radius: 8px;
+  border-radius: 12px;
   transition: 0.3s;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 6px 12px rgba(30, 58, 138, 0.15);
 }
 
 .howItWorks .container .card:hover {
-  background: #000000;
-  color: #FAF6F0;
+  background: #1E3A8A;
+  color: #F8FAFF;
   transform: translateY(-10px);
 }
 
 .howItWorks .container .card .icon {
   width: fit-content;
   display: flex;
-  background: #000000; /* black */
+  background: #1E3A8A;
   padding: 15px;
   border-radius: 50%;
   justify-content: center;
@@ -186,30 +186,30 @@
 
 .howItWorks .container .card .icon svg {
   font-size: 36px;
-  color: #FAF6F0;
+  color: #F8FAFF;
 }
 
 .howItWorks .container .card:hover .icon {
-  background: #FAF6F0;
+  background: #F8FAFF;
 }
 
 .howItWorks .container .card:hover .icon svg {
-  color: #000000;
+  color: #1E3A8A;
 }
 
 .howItWorks .container .card h4 {
   font-size: 1.25rem;
   font-weight: 500;
-  color: #000000;
+  color: #0F172A;
 }
 
 .howItWorks .container .card:hover h4 {
-  color: #FAF6F0;
+  color: #F8FAFF;
 }
 
 .howItWorks .container .card p {
-  color: #000000;
-  opacity: 0.7;
+  color: #0F172A;
+  opacity: 0.75;
 }
 
 @media (max-width: 1720px) {
